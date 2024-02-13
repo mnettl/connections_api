@@ -1,4 +1,5 @@
 /scraped_pages
+__pycache__
 puzzle_date_test.py
 json_test.py
 connections_puzzle_nos_old.json
