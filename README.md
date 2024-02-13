@@ -1,4 +1,4 @@
-## Description
+## connections_api
 
 This is an unofficial API for archived Connections word games.
 
