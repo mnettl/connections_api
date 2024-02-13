@@ -1,12 +1,6 @@
 ## Description
 
 
----
-
-## How it Works
-
-The data is stored in a SQLite3 database. The REST API is built with Flask.
-
 
 ---
 
