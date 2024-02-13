@@ -1,6 +1,6 @@
 ## Description
 
-
+This is an unofficial API for archived Connections word games.
 
 ---
 
