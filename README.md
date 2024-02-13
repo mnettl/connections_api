@@ -6,16 +6,18 @@ This is an unofficial API for archived Connections word games.
 
 ## Endpoints
 
-The API has one endpoint, ``puzzles`` . You can access a whole puzzle, just the 16 words, or just answers. 
+The API has four endpoints. You can access a whole puzzle by puzzle number or date, just the 16 words, or just answers. 
 
-- puzzles
-	- puzzles/[puzzle number] 
-		- puzzles/[puzzle number]/words
-		- puzzles/[puzzle number]/answers
-	- puzzles/?date=[YYYYMMDD]
+### URLS
+
+- **get puzzle by number** - puzzles/[puzzle number] 
+  - **get words only** - puzzles/[puzzle number]/words
+  - **get answers only** - puzzles/[puzzle number]/answers
+-  **get puzzle by date** - puzzles/?date=YYYYMMDD
 
 ### Examples
-#### puzzles/[puzzle number]
+
+#### Get puzzle by number - puzzles/[puzzle number]
 ```json
 {
   "answers": {
@@ -58,7 +60,7 @@ The API has one endpoint, ``puzzles`` . You can access a whole puzzle, just the 
 }
 ```
 
-#### puzzles/[puzzle number]/words
+#### Get words only - puzzles/[puzzle number]/words
 
 ```json
 {
@@ -84,7 +86,7 @@ The API has one endpoint, ``puzzles`` . You can access a whole puzzle, just the 
 }
 ```
 
-#### puzzles/[puzzle number]/answers
+#### Get answers only - puzzles/[puzzle number]/answers
 
 ```json
 {
@@ -108,7 +110,7 @@ The API has one endpoint, ``puzzles`` . You can access a whole puzzle, just the 
 }
 ```
 
-#### puzzles/?[date]
+#### Get puzzle by date - puzzles/?[date]
 
 ```json
 {
