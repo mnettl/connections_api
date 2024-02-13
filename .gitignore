@@ -1,11 +1,8 @@
-# non-essentials and tests
 /scraped_pages
 puzzle_date_test.py
 json_test.py
 connections_puzzle_nos_old.json
 connections_scrape.py
-
-# everything else
 connections_db.db
 connections_api.py
 sql_connection.py
