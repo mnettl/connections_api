@@ -8,7 +8,7 @@ This is an unofficial API for archived Connections word games.
 
 The API has four endpoints. You can access a whole puzzle by puzzle number or date, just the 16 words, or just answers. 
 
-### URLS
+### URLs
 
 - **get puzzle by number** - puzzles/[puzzle number] 
   - **get words only** - puzzles/[puzzle number]/words
